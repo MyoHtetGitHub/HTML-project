@@ -1,0 +1,33 @@
+/*
+ * Copyright (c) HITACHI All Rights Reserved.
+ * NNNNNNNN 2017/05/31
+ */
+ @charset "UTF-8";
+
+body{
+margin: 0px;
+padding: 0px;
+border: 0;
+}
+.header{
+	background-color: #003366;
+	height: 32px;
+	padding: 20px;
+}
+.my-title{
+    font-size: 25px;
+    color: white;
+    font-family: meiryo;
+
+}
+.active{
+	color: white;
+	padding-left: 900px;
+	font-size: 16px;
+}
+.my-message{
+	color: white;
+	padding-left: 40px;
+	font-size: 16px;
+}
+

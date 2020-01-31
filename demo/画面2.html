@@ -1,0 +1,69 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja">
+				<head>
+				    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+
+				<meta http-equiv="Content-Script-Type" content="text/javascript">
+						<title></title>
+	<link rel="stylesheet" href="header.css">
+	<link rel="stylesheet" href="footer.css">
+	<link rel="stylesheet" href="main.css">
+	
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+<body onload="processUser()">
+	<div class="header">
+		<label class="my-title">○○システム</label>
+		<label class="active"></label>
+		<label class="my-message"> 山田花子</label>
+	</div>
+	<div class="container">
+		<div class="first-label">
+		<label >画面2</label>
+		</div>
+		<div class="second-tabel">
+			<label >＜テスト画面＞</label>
+		</div>
+		<div class="third-label">
+			<label >.下記の情報を入力してください</label>
+		</div>
+		<div class="my-table">
+			<table style="width:82%; background-color: #B6D8F5" >
+		<tr>
+				<th width="25%;">氏名</th>
+				<th width="25%">性別</th> 
+				<th width="50%">生年月日</th>
+		</tr>
+		<tr style="background-color: white; height: 35px;" >
+				<td class="tabel1"  >
+					<p id="result"></p>
+				</td>
+				<td class="tabel2">
+					<p id="gender"></p>
+				</td>
+				<td class="tabel3">
+			<p id="age"></p>
+			<p id="first1" style="padding-left: 100px;margin-top: -35px;"></p>
+			<p id="month" style="padding-left: 220px;margin-top: -35px;"></p>
+			<p id="day" style="padding-left: 320px;margin-top: -35px;"></p>
+		</td>
+		</tr>
+</table>
+</div>
+<div >
+	<button type="button" class="second-btn" onclick="myAlert()">はい</button>
+    <button type="button" class="third-btn" onclick="firstPage()">いいえ</button>
+</div>
+	</div>
+	<div class="footer1">
+		<div class="button-group">
+			<button type="button" class="first-button">メニューへ</button>
+			<button type="button" class="second-button">次へ</button>
+			<button type="button" class="third-button" onclick="firstPage()">戻る</button>
+		</div>
+	</div>
+<script src="common.js" type="text/javascript" charset="utf-8" async defer></script>
+<script type="text/javascript">
+	
+</script>
+</body>
+</html>

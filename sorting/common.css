@@ -1,0 +1,136 @@
+#labels{
+	padding: 0 30px;
+}
+#gamen_name_label{
+	float: left;
+	font-weight: bold;
+	font-size: 17px;
+	padding-top: 10px;
+	margin-left: 110px;
+}
+#nav_R_label{
+	margin-left: 81%;
+	font-weight: bold;
+	font-size: 16px;
+}
+#hrtag{
+	margin-left: 110px;
+	width: 1215px;
+	height: 7px;
+	position: absolute;
+	background-color: #33C3FF;
+}
+#hrtag2{
+	margin-left: 110px;
+	width: 1215px;
+	height: 3px;
+	position: relative;
+	top: 2px;
+	background-color: black;
+}
+#line-down{
+	margin-top: 5px;
+}
+#error_msg{
+	color: red;
+	float: left;
+	padding: 15px;
+}
+#gamen_date{
+	margin-left: 79%;
+	padding: 10px 15px 15px 15px;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+#my-table{
+	border:3px solid;
+	border-collapse: collapse;
+	width: 70%;
+	margin-left: 110px;
+
+}
+#first-row-td,#second-row-td,#third-row-td{
+	background-color: lightblue;
+	width: 50%;
+	height: 30px;
+}
+#first-my-label,#second-my-label,#third-my-label{
+	font-weight: bold;
+	margin-left:10px;
+}
+#first-row-td1,#second-row-td1,#third-row-td1{
+	background-color: white;
+}
+#first-my-label1,#second-my-label1,#third-my-label1{
+	margin-left:10px;
+}
+#for-underline{
+	border:1px solid;
+}
+#for-underline1{
+	border:1px solid;
+}
+#for-print{
+	margin-left: 64%;
+	margin-top: -100px;
+	border:1px solid;
+	width: 123px;
+
+}
+#my-second-table{
+	margin-left: 80%;
+	border:1px solid;
+	border-collapse: collapse;
+	width: 140px;
+	margin-top: -105px;
+}
+#second-tabel-label{
+	padding-left: 8px;
+	font-size: 16px;
+	font-weight: bold;
+}
+#for-print1{
+	height: 79px;
+}
+#my-third-table{
+	border:3px solid;
+	border-collapse: collapse;
+	width: 82%;
+	margin-top: 20px;
+	margin-left: 110px;
+}
+#triangle-up{
+	width: 0;
+	height: 0;
+	border-left: 8px solid transparent;
+	border-right: 8px solid transparent;
+	border-bottom: 8px solid;
+	margin-top: 50%;
+}
+td{
+	border:1px solid black;
+	text-align: center;
+	font-weight: bold;
+}
+#for-header{
+	background-color: lightblue;
+}
+#asc:before, #asc:after {
+  border: 6px solid transparent;
+  content: "";
+  position: absolute;
+}
+#asc:before, #asc:before {
+  margin-left: 50px;
+  margin-top: -26px;
+  border-bottom: 10px solid #0000ff;
+}
+#asc:after, #asc:after {
+  margin-left: 50px;
+  margin-top: -10px;
+  border-top: 10px solid #0000ff;
+}
+
+
+

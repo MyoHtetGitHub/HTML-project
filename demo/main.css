@@ -1,0 +1,102 @@
+/*
+ * Copyright (c) HITACHI All Rights Reserved.
+ * NNNNNNNN 2017/05/31
+ */
+ @charset "UTF-8";
+
+.first-label{
+	margin-top: 30px;
+	color: blue;
+    font-weight: 900;
+	padding-left: 50px;
+}
+.second-tabel{
+	margin-top: 12px;
+	padding-left: 50px;
+}
+.third-label{
+	margin-top: 6px;
+	padding-left: 67px;
+}
+.my-table{
+	margin-top: 6px;
+	padding-left: 67px;
+}
+table{
+	background-color: #FFDAB9;
+}
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 8px;
+
+}
+.tabel1{
+	padding-left: 10px;
+
+}
+.tabel1 .mytext{
+width: 243px;
+}
+.tabel2{
+	padding-left: 10px;
+ 
+}
+.tabel2 select{
+	width: 243px;
+	height: 23px;
+}
+.tabel3 select{
+	width: 100px;
+    padding-left: 30px;
+}
+.tabel3 .firstOption1{
+	width: 118px;
+	margin-left: 15px;
+	height: 23px;
+
+	}
+.tabel3 .firstOption2{
+	width: 118px;
+	height: 23px;
+	}
+.tabel3 .firstOption3{
+	width: 118px;
+	height: 23px;
+	}
+.tabel3 .firstOption4{
+	width: 118px;
+	height: 23px;
+	}
+	#my-btn{
+	margin-left: 1032px;
+	margin-top: 8px;
+	width: 100px;
+	height: 30px;
+	background-color: #FFDAB9;
+	border-radius: 5px;
+	}
+.second-btn{
+	margin-left: 68%;
+	margin-top: 10px;
+	width: 100px;
+	height: 30px;
+	background-color: #B6D8F5;
+	border-radius: 5px;
+}
+.third-btn{
+	
+	margin-top: 10px;
+	width: 100px;
+	height: 30px;
+	background-color:#B6D8F5;
+	border-radius: 5px;
+
+}
+table,th{
+	
+}
+table,td{
+	
+	height: 15px;
+}

@@ -1,0 +1,30 @@
+/*
+ * Copyright (c) HITACHI All Rights Reserved.
+ * NNNNNNNN 2017/05/31
+ */
+ @charset "UTF-8";
+
+body{
+margin: 0px;
+padding: 0px;
+border: 0;
+}
+.footer{
+	background-color: #003366;
+	height: 54px;
+	margin-top: 278px;
+}
+.footer1{
+	background-color: #003366;
+	height: 54px;
+	margin-top: 281px;
+}
+.button-group{
+ padding-left: 1030px;
+ padding-top: 14px;
+}
+.first-button,.second-button,.third-button{
+	width: 100px;
+	height: 30px;
+	border-radius: 5px;
+}

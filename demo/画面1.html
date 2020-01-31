@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html  lang="ja-jp" />
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+
+	<title></title>
+	<link rel="stylesheet" href="header.css">
+	<link rel="stylesheet" href="footer.css">
+	<link rel="stylesheet" href="main.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+<body>
+	<div class="header">
+		<label class="my-title">○○システム</label>
+		<label class="active"></label>
+		<label class="my-message"> 山田花子</label>
+	</div>
+	<div class="container">
+		<div class="first-label">
+		<label >画面１</label>
+		</div>
+		<div class="second-tabel">
+			<label >＜テスト画面＞</label>
+		</div>
+		<div class="third-label">
+			<label >.下記の情報を入力してください</label>
+		</div>
+		<div class="my-table">
+			<table style="width:82%">
+  <tr>
+    <th width="25%">氏名</th>
+    <th width="25%">性別</th> 
+    <th width="50%">生年月日</th>
+  </tr>
+  <tr>
+    <td class="tabel1"><input type="text" name="name"  id="name" style="width: 236px;"></td>
+    <td class="tabel2"> 
+    <select id="gender">
+    	 <option></option>
+  <option value="男">男</option>
+  <option value="女">女</option>
+  <option value="不詳">不詳</option>
+ 
+</select>
+</td>
+    <td class="tabel3">
+   <select id="age" class="firstOption1">
+   	 <option></option>
+  <option value="明治">明治</option>
+  <option value="大正">大正</option>
+  <option value="昭和">昭和</option>
+  <option value="平成">平成</option>
+   <option value="平成">平成</option>
+  </select>
+   <select id="first1" class="firstOption2">
+   <option></option>
+<option value="1年">1年</option><option value="2年">2年</option><option value="3年">3年</option><option value="4年">4年</option><option value="5年">5年</option><option value="6年">6年</option><option value="7年">7年</option><option value="8年">8年</option><option value="9年">9年</option><option value="10年">10年</option>
+<option value="11年">11年</option><option value="12年">12年</option><option value="13年">13年</option><option value="14年">14年</option><option value="15年">15年</option><option value="16年">16年</option><option value="17年">17年</option><option value="18年">18年</option><option value="19年">19年</option><option value="20年">20年</option>
+<option value="21年">21年</option><option value="22年">22年</option><option value="23年">23年</option><option value="24年">24年</option><option value="25年">25年</option><option value="26年">26年</option><option value="27年">27年</option><option value="28年">28年</option><option value="29年">29年</option><option value="30年">30年</option>
+<option value="31年">31年</option><option value="32年">32年</option><option value="33年">33年</option><option value="34年">34年</option><option value="35年">35年</option><option value="36年">36年</option><option value="37年">37年</option><option value="38年">38年</option><option value="39年">39年</option><option value="40年">40年</option>
+<option value="41年">41年</option><option value="42年">42年</option><option value="43年">43年</option><option value="44年">44年</option><option value="45年">45年</option><option value="46年">46年</option><option value="47年">47年</option><option value="48年">48年</option><option value="49年">49</option><option value="50年">50年</option>
+<option value="51年">51年</option><option value="52年">52年</option><option value="53年">53年</option><option value="54年">54年</option><option value="55年">55年</option><option value="56年">56年</option><option value="57年">57年</option><option value="58年">58年</option><option value="59年">59年</option><option value="60年">60年</option>
+<option value="61年">61年</option><option value="62年">62年</option><option value="63年">63年</option><option value="64年">64年</option><option value="65年">65年</option><option value="66年">66年</option><option value="67年">67年</option><option value="68年">68年</option><option value="69年">69年</option><option value="70年">70年</option>
+  </select>
+   <select id="month" class="firstOption3">
+   	 <option></option>
+  <option value="1月">1月</option><option value="2月">2月</option><option value="3月">3月</option><option value="4月">4月</option><option value="5月">5月</option><option value="6月">6月</option><option value="7月">7月</option><option value="8月">8月</option><option value="9月">9月</option><option value="10月">10月</option>
+  <option value="11月">11月</option><option value="12月">12月</option>
+  </select>
+   <select id="day" class="firstOption4">
+   	 <option></option>
+ <option value="1日">1日</option><option  value="2日">2日</option><option value="3日">3日</option><option  value="4日">4日</option><option  value="5日">5日</option><option  value="6日">6日</option><option  value="7日">7日</option><option  value="8日">8日</option><option  value="9日">9日</option><option  value="10日">10日</option>
+ <option  value="11日">11日</option><option  value="12日">12日</option><option  value="13日">13日</option><option  value="14日">14日</option><option  value="15日">15日</option><option  value="16日">16日</option><option  value="17日">17日</option><option  value="18日">18日</option><option  value="19日">19日</option><option  value="20日">20日</option>
+ <option  value="21日">21日</option><option value="22日">22日</option><option value="23日">23日</option><option value="24日">24日</option><option value="25日">25日</option><option value="26日">26日</option><option value="27日">27日</option><option value="28日">28日</option><option value="29日">29日</option><option value="30日">30日</option><option value="31日">31日</option>
+  </select>
+  </td>
+  </tr>
+</table>
+</div>
+<div >
+	<button type="submit" id="my-btn" onclick="SendData()" >登録</button>
+</div>
+	</div>
+	<div class="footer">
+		<div class="button-group">
+			<button type="button" class="first-button">メニューへ</button>
+			<button type="button" class="second-button" onclick="ChangePage()">次へ</button>
+			<button type="button" class="third-button">戻る</button>
+		</div>
+	</div>
+ <script src="common.js" type="text/javascript" charset="utf-8" async defer></script>
+</body>
+</html>
